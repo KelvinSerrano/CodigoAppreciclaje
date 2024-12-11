@@ -15,10 +15,10 @@
         <form method='post' style="width: 200px; height: 300px; vertical-align:auto;" class="mx-auto p-2" >
             {{ form.as_p}}
             {% csrf_token %}
-            <input type="submit" value="AGREGAR" href="http://ec2-54-160-240-12.compute-1.amazonaws.com/:8000/contacto" class="w-35 btn btn-lg btn-primary mt-4">
+            <input type="submit" value="AGREGAR" href="http://ec2-54-160-240-12.compute-1.amazonaws.com:8000/contacto" class="w-35 btn btn-lg btn-primary mt-4">
         </form>
     </div>
    
 
-    <a href="http://0.0.0.0:8000/puntos" class="btn btn-info mt-5">Volver</a>
+    <a href="http://ec2-54-160-240-12.compute-1.amazonaws.com:8000/puntos" class="btn btn-info mt-5">Volver</a>
 </body>
